@@ -1,3 +1,4 @@
+/* External CSS*/
 h1, h2, h3 { color: green; } /* multiple selectors use commas.
  applies the green text color for the h1, h2, and h3 headings */
 .feature-card { background-color: blue; } /* class selector use a (.)
