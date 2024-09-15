@@ -9,22 +9,91 @@
     <header>
         <nav>
             <ul>
-                  <!--5 links to different pages to meet requirements-->
+                <!-- 5 links to different pages to meet requirements -->
                 <li><a href="home.html">Home</a></li>
                 <li><a href="tables.html">Tables</a></li>
                 <li><a href="forms.html">Forms</a></li>
                 <li><a href="media.html">Media</a></li>
                 <li><a href="imagecollection.html">Pictures</a></li>
             </ul>
-            </nav>
-            <h1>Komodo Dragon WebPage</h1>
+        </nav>
+        <h1>Form for Komodo Dragon WebPage</h1>
     </header>
     <main>
+        <!-- Beginning of the form element -->
+        <form action="/submit" method="post">
+            <!-- Label and text input field -->
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username">
 
+            <br> <!-- adds a line break -->
+
+            <!-- Label and a password input field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com">
+
+            <br>
+            
+            <!-- Label and number input field -->
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="100">
+
+            <br>
+
+            <!-- Radio buttons for gender selection -->
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+
+            <br>
+            
+            <!-- Checkbox for newsletter subscription -->
+            <label for="subscribe">Subscribe to newsletter:</label>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+
+            <br>
+
+            <!-- Dropdown select for country selection -->
+            <label for="country">Country:</label>
+            <select id="country" name="country">
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <!-- ... other options ... -->
+            </select>
+
+            <br>
+
+            <!-- Textarea for additional comments -->
+            <label for="comments">Comments:</label>
+            <textarea id="comments" name="comments" rows="4" cols="50"></textarea>
+
+            <br>
+
+            <!-- Date input for selecting a date -->
+            <label for="birthdate">Birth Date:</label>
+            <input type="date" id="birthdate" name="birthdate">
+
+            <br>
+
+            <!-- Color input for selecting a color -->
+            <label for="favcolor">Favorite Color:</label>
+            <input type="color" id="favcolor" name="favcolor">
+
+            <br>
+
+            <!-- Submit button to submit the form -->
+            <input type="submit" value="Submit">
+            
+            <!-- Reset button to reset the form fields -->
+            <input type="reset" value="Reset">
+        </form>
+        <!-- End of the form element -->
     </main>
-        <footer>
-            <p>&copy; 2024 Matthew Hudson. All rights reserved.</p>
-            <p><a href="https://github.com/matthew41305" target="matthew41305/">Personal GitHub Profile</a></p>
-        </footer>
+    <footer>
+        <p>&copy; 2024 Matthew Hudson. All rights reserved.</p>
+        <p><a href="https://github.com/matthew41305" target="matthew41305">Personal GitHub Profile</a></p>
+    </footer>
 </body>
 </html>
