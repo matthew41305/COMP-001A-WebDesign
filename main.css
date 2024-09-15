@@ -1,0 +1,13 @@
+h1, h2, h3 { color: green; } /* multiple selectors use commas.
+ applies the green text color for the h1, h2, and h3 headings */
+.feature-card { background-color: blue; } /* class selector use a (.)
+ prefix followed by the class name. applies the blue background color
+  for the class feature-card */
+#special-feature { background-color: #fde3a7; } /* id selector use (#) prefix followed by the id name. applies the light gold background color for the id special feature */
+p a { color: red; } /* targeting a sub-element use the parent
+ element followed by the child element separated by a "space." applies the red text color to the link within a paragraph block but not to the entire paragraph. */
+a { text-decoration: none; color: white } /* changes the default
+ blue & underlined link text */
+a:hover { background-color: blue; color: white; } /* this is a
+ type of pseudo-class. the style changes the background and text
+  colors when the mouse hovers over a link */ 
